@@ -1,0 +1,29 @@
+
+
+<h1>PROGRAMA IMC</h1>
+<br>
+<br>
+
+<script>
+
+    function saltarlinea() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+        document.write("<big>" + frase + "</big>");
+    }
+
+    function carcularImc(peso,altura) {
+        imc=peso/(altura*altura);
+        return(imc);
+    }
+
+    var imcEsteban=carcularImc(85,1.75);
+    var imcAna=carcularImc(58,1.65);
+
+    imprimir("El IMC de Esteban es: " + Math.round(imcEsteban) + " y el IMC de Ana es: " + Math.round(imcAna) + " y su promedio es: " + Math.round((imcAna+imcEsteban)/2));
+
+</script>
