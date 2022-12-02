@@ -21,9 +21,12 @@
         return(imc);
     }
 
-    var imcEsteban=carcularImc(85,1.75);
-    var imcAna=carcularImc(58,1.65);
+    var nombre=prompt("¿Cuál es tu nombre?")
+    var peso=prompt(nombre + " ¿Cuál es tu peso?");
+    var altura=prompt(nombre + " ¿Cuál es tu altura?");
 
-    imprimir("El IMC de Esteban es: " + Math.round(imcEsteban) + " y el IMC de Ana es: " + Math.round(imcAna) + " y su promedio es: " + Math.round((imcAna+imcEsteban)/2));
+    imc=carcularImc(peso,altura);
+
+    imprimir(nombre + ", su IMC aproximado es: " + Math.round(imc));
 
 </script>
