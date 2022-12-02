@@ -1,0 +1,32 @@
+
+
+<h1>PROGRAMA IMC</h1>
+<br>
+<br>
+
+<script>
+
+    function saltarlinea() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+        document.write("<big>" + frase + "</big>");
+    }
+
+    function carcularImc(peso,altura) {
+        imc=peso/(altura*altura);
+        return(imc);
+    }
+
+    var nombre=prompt("¿Cuál es tu nombre?")
+    var peso=prompt(nombre + " ¿Cuál es tu peso?");
+    var altura=prompt(nombre + " ¿Cuál es tu altura?");
+
+    imc=carcularImc(peso,altura);
+
+    imprimir(nombre + ", su IMC aproximado es: " + Math.round(imc));
+
+</script>
