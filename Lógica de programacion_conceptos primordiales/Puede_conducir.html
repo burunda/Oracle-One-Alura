@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+
+<h1>¿SERÁ QUE PUEDO CONDUCIR?</h1>
+<br>
+<br>
+
+<script>
+
+    function saltarlinea() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+        document.write("<big>" + frase + "</big>");
+        saltarlinea();
+    }
+
+    var edad=parseInt(prompt("¿Cuál es tu edad?"));
+    var licencia=prompt("¿Tienes licencia? Constesta S o N");
+
+    if (edad>=18 && licencia=="s") {
+        imprimir("Puedes conducir");
+        saltarlinea();
+    }
+
+    else {
+        if (edad>=18 && licencia!="s") {
+            imprimir("No puedes conducir porque no tienes licencia.");
+        }
+        else{ 
+            imprimir("No puedes conducir, eres menor de edad.");
+        }
+    }
+
+</script>
