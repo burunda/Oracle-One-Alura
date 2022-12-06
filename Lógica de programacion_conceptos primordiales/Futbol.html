@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA IMC</h1>
+<br>
+<br>
+
+<script>
+
+function saltarlinea() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+        document.write("<big>" + frase + "</big>");
+    }
+
+    var victorias=parseInt(prompt("Cantidad de victorias"));
+    var empates=parseInt(prompt("Cantidad de empates"));
+
+    var puntosTotal=(victorias*3) + empates;
+
+    imprimir("El total de puntos del equipo es: " + puntosTotal);
+
+
+</script>
