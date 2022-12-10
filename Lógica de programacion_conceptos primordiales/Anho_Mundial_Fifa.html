@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 
-<h1>JUEGO DE ADIVINACIÓN</h1>
+<h1>PROGRAMA AÑO MUNDIAL DE LA FIFA</h1>
 <br>
 <br>
 
@@ -15,6 +15,14 @@
     function imprimir(frase) {
         document.write("<big>" + frase + "</big>");
         saltarlinea();
+    }
+
+    var anhoMundial=1930;
+    var limite=parseInt(prompt("Ingrese año limite"));
+
+    while (anhoMundial <= limite) {
+        imprimir("Hubo mundial de la FIFA en el año " + anhoMundial);
+        anhoMundial=anhoMundial+4;
     }
 
 </script>

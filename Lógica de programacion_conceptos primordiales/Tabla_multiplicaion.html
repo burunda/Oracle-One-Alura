@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA TABLA MULTIPLICACIÓN</h1>
+<br>
+<br>
+
+<script>
+
+    function saltarlinea() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function imprimir(frase) {
+        document.write("<big>" + frase + "</big>");
+        saltarlinea();
+    }
+
+    var multiplicador=1;
+    var multiple=parseInt(prompt("Ingresa número para multiplicar en WHILE"));
+
+    imprimir("WHILE");
+    while (multiplicador <= 10) {
+
+        imprimir(multiple*multiplicador);
+        multiplicador++;
+    }
+
+    var multifor=parseInt(prompt("Ingresa número para multiplicar en FOR"))
+    saltarlinea();
+    imprimir("FOR");
+
+    for (var multi=1; multi<=10; multi++) {
+        imprimir(multifor*multi);
+    }
+
+</script>
