@@ -14,6 +14,7 @@
 
     function imprimir(frase) {
         document.write("<big>" + frase + "</big>");
+        saltarlinea();
     }
 
     var numeroPensado=Math.round(Math.random()*10);
@@ -45,5 +46,14 @@
     else {
         imprimir("Fallaste! el número pensado era: " + numeroPensado);
     }
+
+    for(var linea=1; linea<=3; linea++) {
+        for(columna=1; columna<=50; columna++) {
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+
+    imprimir("FIN");
 
 </script>
