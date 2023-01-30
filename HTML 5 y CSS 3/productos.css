@@ -1,0 +1,16 @@
+header{
+    background-color: #cccccc;
+}
+
+nav li{
+    display: inline;
+    margin: 0,0,0,15;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
