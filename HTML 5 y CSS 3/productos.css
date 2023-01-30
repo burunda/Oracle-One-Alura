@@ -49,3 +49,9 @@ nav a{
 .producto-descripcion{
     font-size: 18px;
 }
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
