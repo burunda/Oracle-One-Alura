@@ -2,9 +2,15 @@ header{
     background-color: #cccccc;
 }
 
+nav{
+    position: absolute;
+    top: 110px;
+    
+}
+
 nav li{
     display: inline;
-    margin: 0,0,0,15;
+    margin: 0 0 0 15px;
 }
 
 nav a{
