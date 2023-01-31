@@ -89,3 +89,38 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
+
+/*CSS para home*/
+
+.banner{
+    width: 100%;
+}
+
+.titulos{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgDife{
+    width: 50%;
+}
