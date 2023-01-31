@@ -99,15 +99,52 @@ form{
     margin: 40px 0;
 }
 
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input{
+.padron{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: darkslategrey;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkgray;
+    transform: scale(1.15);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
